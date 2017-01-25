@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header-bg1.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -547,27 +547,7 @@ section {
 }
 
 @media(min-width:992px) {
-    .timeline {
-        > li {
-            min-height: 100px;
-            .timeline-panel {
-                padding: 0 20px 20px;
-            }
-            .timeline-image {
-                width: 150px;
-                height: 150px;
-                margin-left: -75px;
-                h4 {
-                    font-size: 18px;
-                    margin-top: 30px;
-                    line-height: 26px;
-                }
-            }
-            &.timeline-inverted > .timeline-panel {
-                padding: 0 20px 20px;
-            }
-        }
-    }
+    
 }
 
 @media(min-width:1200px) {
