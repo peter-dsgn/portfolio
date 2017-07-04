@@ -216,14 +216,14 @@ header {
       line-height: 50px;
       margin-bottom: 25px; }
   header .peter-photo {
-    width: 200px;
+    width: 250px;
     height: auto;
     display: block;
     text-align: center;
     margin: 15px auto; }
     @media (min-width: 480px) {
       header .peter-photo {
-        width: 250px;
+        width: 100%;
         height: auto; } }
 
 @media (min-width: 768px) {
