@@ -41,7 +41,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
-
+.h3, h3 {
+    font-size: 18px;
+}
 .img-centered {
   margin: 0 auto; }
 
@@ -167,13 +169,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #342939);
     padding: 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1em; } }
 
 header {
-  background-color: #575a5e;
+  background-color: #342939;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -269,7 +271,8 @@ section {
     padding: 100px 0; } }
 
 .service-heading {
-  margin: 15px 0;
+  margin: 5px 0;
+  font-size: 16px;
   text-transform: none; }
 
 #portfolio .portfolio-item {
