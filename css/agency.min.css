@@ -192,8 +192,9 @@ header {
     border-bottom: 2px solid white;
     text-decoration: none;
     display: block;
+    float:left;
     width: 155px;
-    margin: 20px 0;
+    margin: 20px 20px 20px 0px;
     text-align: center;
     font-size: 18px; }
     header a.page-scroll:hover {
