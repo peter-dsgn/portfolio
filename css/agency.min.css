@@ -189,7 +189,7 @@ header {
   color: white; }
   header a.page-scroll {
     padding: 10px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #bf1212;
     text-decoration: none;
     display: block;
     float:left;
