@@ -225,6 +225,7 @@ header {
     @media (min-width: 480px) {
       header .peter-photo {
         width: 100%;
+        max-width: 300px;
         height: auto; } }
 
 @media (min-width: 768px) {
