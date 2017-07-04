@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1em; } }
 
 header {
-  min-height: 85vh;
+  min-height: 100vh;
   background-color: #342939;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
