@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #342939);
+    background-color: #342939;
     padding: 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1em; } }
