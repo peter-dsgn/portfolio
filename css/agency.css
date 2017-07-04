@@ -671,3 +671,7 @@ header ::-moz-selection {
 header ::selection {
   text-shadow: none;
   background: black; }
+.modal-content .col-lg-8 {
+    width: 800px;
+    max-width: 100%;
+}
