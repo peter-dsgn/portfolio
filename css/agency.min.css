@@ -707,7 +707,7 @@ font-size: 1em;}
   color: #fff;
 }
 @media (min-width: 1440px) {
-  .intro-text .align-left{   
+  .intro-text .info-start{   
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -718,6 +718,7 @@ font-size: 1em;}
   .intro-text .align-left:before{
     content: " ";
     display:block;
+    position: absolute;
     width:30px;
     height:30px;
     top:0;
