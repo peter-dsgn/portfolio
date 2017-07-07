@@ -689,5 +689,16 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
 }
 header a.page-scroll{
   width: auto;
-  border-bottom: 3px solid #bf1212;
+  border-bottom: 3px solid #de00ff;
+}
+.navbar-custom.affix .nav li a{
+font-size: 1em;}
+
+.intro-text h3 {
+    color: #de00ff;
+    font-size: 4vh;
+    text-transform: none;
+}
+.navbar-brand.page-scroll:hover, .navbar-custom .nav li a:hover{
+  color: #de00ff;
 }
