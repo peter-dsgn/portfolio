@@ -684,7 +684,7 @@ header ::selection {
   background: black; }
 
 header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, header a.page-scroll, .intro-text h3 {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
   font-weight:normal;
 }
 header a.page-scroll{
