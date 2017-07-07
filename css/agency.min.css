@@ -714,3 +714,6 @@ font-size: 1em;}
     margin-top: 10vh;
   }
 }
+@media (min-width:1440px){
+  .container{width:96vw; max-width:1440px;}
+}
