@@ -689,7 +689,7 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
 }
 header a.page-scroll{
   width: auto;
-  border-bottom: 3px solid #de00ff;
+  border-bottom: 3px solid #c3ff00;
 }
 .navbar-custom.affix .nav li a{
 font-size: 1em;}
