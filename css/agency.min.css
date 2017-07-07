@@ -682,3 +682,12 @@ header ::-moz-selection {
 header ::selection {
   text-shadow: none;
   background: black; }
+
+header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, header a.page-scroll, .intro-text h3 {
+    font-size: 2.5vh;
+  font-weight:normal;
+}
+header a.page-scroll{
+  width: auto;
+  border-bottom: 3px solid #bf1212;
+}
