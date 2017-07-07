@@ -703,9 +703,18 @@ font-size: 1em;}
   color: #fff;
 }
 @media (min-width: 1200px) {
-  .intro-text .align-left{   -ms-transform: rotate(45deg);
+  .intro-text .align-left{   
+    -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: 10vh;
+    transition: rotate 1s ease;
+  }
+  .intro-text .align-left:hover{   
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: 10vh;
+    transition: rotate 0.3s ease;
   }
 }
