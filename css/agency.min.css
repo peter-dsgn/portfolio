@@ -708,13 +708,5 @@ font-size: 1em;}
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: 10vh;
-    transition: all 1s ease;
-  }
-  .intro-text .align-left:hover{   
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    margin-top: 10vh;
-    transition: all 0.3s ease;
   }
 }
