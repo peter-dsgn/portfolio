@@ -48,7 +48,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto; }
 
 .bg-light-gray {
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+background-color: #3f3644;}
+.bg-light-gray h2.section-heading, .bg-light-gray h3{
+  color: #fff;
+}
 
 .bg-darkest-gray {
   background-color: #222222; }
@@ -259,7 +263,7 @@ header {
 section {
   padding: 100px 0; }
   section h2.section-heading {
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
