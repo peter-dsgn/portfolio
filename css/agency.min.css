@@ -712,6 +712,17 @@ font-size: 1em;}
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: 10vh;
+    width:60vh;
+    possition:relative;
+  }
+  .intro-text .align-left:before{
+    content: " ";
+    display:block;
+    width:30px;
+    height:30px;
+    top:0;
+    left: -40px;
+    background: rgba(250,250,250, .9);
   }
 }
 @media (min-width:1440px){
