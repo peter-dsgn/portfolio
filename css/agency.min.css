@@ -702,3 +702,10 @@ font-size: 1em;}
 .navbar-brand.page-scroll:hover, .navbar-custom .nav li a:hover{
   color: #de00ff;
 }
+@media (min-width: 1200px) {
+  .intro-text .align-left{   -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: 10vh;
+  }
+}
