@@ -693,14 +693,16 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
 }
 header a.page-scroll{
   width: auto;
-  border-bottom: 3px solid #c3ff00;
+  border-bottom: 2px solid #fff;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 .navbar-custom.affix .nav li a{
 font-size: 1em;}
 
 .intro-text h3 {
     color: #fff;
-    font-size: 1.4em;
+    font-size: 18px;
     text-transform: none;
 }
 .navbar-brand.page-scroll:hover, .navbar-custom .nav li a:hover{
@@ -715,7 +717,7 @@ font-size: 1em;}
     width:60vh;
     possition:relative;
   }
-  .intro-text .align-left:before{
+  .intro-textz .align-leftz:before{
     content: " ";
     display:block;
     position: absolute;
