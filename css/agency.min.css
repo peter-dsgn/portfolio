@@ -193,7 +193,7 @@ header {
   color: white; }
   header a.page-scroll {
     padding: 10px;
-      border-bottom: 2px solid #bf1212;
+      border-bottom: 3px solid transparent;
     transition: border-color 0.2s ease;
     text-decoration: none;
     display: block;
