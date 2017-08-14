@@ -697,7 +697,7 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
 }
 header a.page-scroll{
   width: auto;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid transparent;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   padding: 0;
