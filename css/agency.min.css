@@ -189,7 +189,7 @@ background-color: #3f3644;}
 
 header {
   min-height: 100vh;
-  background-color: #3f3644;
+  background-color: #272a33;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -734,8 +734,8 @@ font-size: 1em;}
 }
 @media (min-width: 1200px) {
   .info-start{  
-   padding: 50px;
-   border: 2px solid white;
+   padding: 60px 90px;
+   border: 2px solid #7ccdba;
   }
   
 }
