@@ -189,8 +189,7 @@ background-color: #3f3644;}
 
 header {
   min-height: 100vh;
-  background-color: #342939;
-  background-image: url("../img/header-bg5.jpg");
+  background-color: #3f3644;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -733,25 +732,12 @@ font-size: 1em;}
 .navbar-brand.page-scroll:hover, .navbar-custom .nav li a:hover{
   color: #fff;
 }
-@media (min-width: 1440px) {
-  .intro-textz .info-startz{   
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    margin-top: 10vh;
-    width:60vh;
-    possition:relative;
+@media (min-width: 1200px) {
+  .info-start{  
+   padding: 50px;
+   border: 2px solid white;
   }
-  .intro-textz .align-leftz:before{
-    content: " ";
-    display:block;
-    position: absolute;
-    width:30px;
-    height:30px;
-    top:0;
-    left: -40px;
-    background: rgba(250,250,250, .9);
-  }
+  
 }
 @media (min-width:1440px){
   .container{width:96vw; max-width:1440px;}
