@@ -772,7 +772,7 @@ font-size: 1em;}
     transition-duration: 0.2s;
     transition-delay: 2s;
   }
- header:hover .info-start{
+ .info-start:hover{
   box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
  }
  .intro-text .info-start h3{
