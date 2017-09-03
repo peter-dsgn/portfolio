@@ -744,7 +744,7 @@ header a.page-scroll{
 transition: all 0.1s;
 }
 .navbar-brand.page-scroll:hover{
- color:#cdc97c;
+ color:#cdc97c !important;
 }
 .navbar-brand.page-scroll:hover:after{
  width: 10px;
@@ -767,7 +767,11 @@ font-size: 1em;}
   .info-start{  
    padding: 60px 90px;
    border: 10px solid #7ccdba;
-   box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
+   *box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
+   -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s;
+    animation-delay: 2s;
   }
  .intro-text .info-start h3{
    text-transform: unset;
@@ -779,6 +783,14 @@ font-size: 1em;}
    top: 120px;
    left: 20px;
   }
+   @-webkit-keyframes mymove {
+       from {box-shadow: 0px 0px #1f234a, 0 0 0 #3c1d30;}
+       to {box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;}
+   }
+   @keyframes mymove {
+       from {box-shadow: 0px 0px #1f234a, 0 0 0 #3c1d30;}
+       to {box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;}
+   }
  }
  .bg {
   animation:slide 3s ease-in-out infinite alternate;
