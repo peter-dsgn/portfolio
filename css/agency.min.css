@@ -798,11 +798,11 @@ font-size: 1em;}
    top: 120px;
    left: 20px;
   }
-  .intro-text .text-center{
+  header .image-holder{
    margin-right: -120px;
    z-index: 2;
   } 
-  .intro-text .text-center img{
+  header .image-holder img{
    max-width: 400px;
   }
  }
