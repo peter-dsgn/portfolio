@@ -739,12 +739,18 @@ header a.page-scroll{
 }
 .navbar-brand.page-scroll{
  opacity:1;
+ -webkit-transition: all 0.1s;
+-moz-transition: all 0.1s;
+transition: all 0.1s;
 }
 .navbar-brand.page-scroll:hover{
  color:#cdc97c;
 }
 .navbar-brand.page-scroll:hover:after{
  width: 10px;
+ -webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
 }
 .navbar-custom.affix .nav li a{
 font-size: 1em;}
