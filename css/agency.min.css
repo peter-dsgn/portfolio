@@ -747,6 +747,12 @@ font-size: 1em;}
    text-transform: unset;
    font-size: 38px;
    font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  .navbar.affix-top .navbar-brand{
+   transform: rotate(45deg);
+   position: absolute;
+   top: 120px;
+   left: 20px;
+  }
  }
  .bg {
   animation:slide 3s ease-in-out infinite alternate;
