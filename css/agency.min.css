@@ -182,7 +182,7 @@ background-color: #3f3644;}
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #342939;
+    background-color: #272a33;
     padding: 0; }
     .navbar-custom.affix .navbar-brand {
       font-size: 1em; } }
@@ -212,7 +212,7 @@ header {
     font-size: 18px; }
     header a.page-scroll:hover {
       background: rgba(250, 250, 250, 0.01);
-      border-color:#f87171;
+      border-color:#7ccdba;
       transition: border-color 0.5s ease;
       
       color: #fff; }
@@ -714,7 +714,7 @@ header a.page-scroll{
 .navbar-brand.page-scroll::after {
     content: " ";
     display: block;
-    background: #f87171;
+    background: #7ccdba;
     width: 80px;
     height: 3px;
     float: right;
@@ -737,6 +737,10 @@ font-size: 1em;}
    padding: 60px 90px;
    border: 2px solid #7ccdba;
   }
+ .intro-text .info-start h3{
+   text-transform: unset;
+   font-size: 38px;
+ }
   
 }
 @media (min-width:1440px){
