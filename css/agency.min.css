@@ -740,6 +740,7 @@ font-size: 1em;}
  .intro-text .info-start h3{
    text-transform: unset;
    font-size: 38px;
+   font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
   
 }
