@@ -298,7 +298,7 @@ section {
 
 .service-heading {
   margin: 5px 0;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: none; }
 .service-heading::after {
     content: " ";
