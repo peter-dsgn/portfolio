@@ -798,11 +798,11 @@ font-size: 1em;}
    top: 120px;
    left: 20px;
   }
-  header .image-holder{
+  .image-holder{
    margin-right: -120px;
    z-index: 2;
   } 
-  header .image-holder img{
+  .image-holder img{
    max-width: 400px;
   }
  }
