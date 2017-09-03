@@ -743,7 +743,7 @@ header a.page-scroll{
 -moz-transition: all 0.1s;
 transition: all 0.1s;
 }
-.navbar-brand.page-scroll:hover{
+.navbar-brand.page-scroll:after{
  color:#cdc97c;
 }
 .navbar-brand.page-scroll:hover:after{
