@@ -727,6 +727,25 @@ header a.page-scroll{
     margin-top: 12px;
     margin-left: 10px;
 }
+.navbar-brand.page-scroll::after {
+    content: " ";
+    display: block;
+    background: #cdc97c;
+    width: 80px;
+    height: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.navbar-brand.page-scroll{
+ opacity:1;
+}
+.navbar-brand.page-scroll:hover{
+ color:#cdc97c;
+}
+.navbar-brand.page-scroll:hover:after{
+ width: 10px;
+}
 .navbar-custom.affix .nav li a{
 font-size: 1em;}
 
