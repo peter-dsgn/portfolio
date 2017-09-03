@@ -752,6 +752,19 @@ transition: all 0.1s;
 -moz-transition: all 0.3s;
 transition: all 0.3s;
 }
+.navbar-brand.page-scroll:active{
+ color::#7ccdba;
+ -webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+transition: all 0.2s;
+}
+.navbar-brand.page-scroll:active:after{
+ width: 40px;
+ background:#7ccdba;
+ -webkit-transition: all 0.1s;
+-moz-transition: all 0.1s;
+transition: all 0.1s;
+}
 .navbar-custom.affix .nav li a{
 font-size: 1em;}
 
