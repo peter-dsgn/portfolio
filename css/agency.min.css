@@ -777,6 +777,13 @@ font-size: 1em;}
   color: #fff;
 }
 @media (min-width: 1200px) {
+ .image-holder{
+   margin-right: -120px;
+   z-index: 2;
+  } 
+  .image-holder img{
+   max-width: 400px;
+  }
   .info-start{  
    padding: 60px 90px;
    border: 10px solid #7ccdba;
@@ -798,13 +805,7 @@ font-size: 1em;}
    top: 120px;
    left: 20px;
   }
-  .image-holder{
-   margin-right: -120px;
-   z-index: 2;
-  } 
-  .image-holder img{
-   max-width: 400px;
-  }
+  
  }
  .bg {
   animation:slide 3s ease-in-out infinite alternate;
