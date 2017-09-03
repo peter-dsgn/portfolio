@@ -303,7 +303,7 @@ section {
 .service-heading::after {
     content: " ";
     display: block;
-    background: #cdc97c;
+    background: #7ccdba;
     width: 60%;
     height: 10px;
     margin-top: 5px;
