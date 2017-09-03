@@ -741,7 +741,8 @@ font-size: 1em;}
 @media (min-width: 1200px) {
   .info-start{  
    padding: 60px 90px;
-   border: 2px solid #7ccdba;
+   border: 10px solid #7ccdba;
+   box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
   }
  .intro-text .info-start h3{
    text-transform: unset;
