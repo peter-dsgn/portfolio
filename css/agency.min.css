@@ -744,7 +744,7 @@ header a.page-scroll{
 transition: all 0.1s;
 }
 .navbar-brand.page-scroll:hover{
- color:#cdc97c !important;
+ color:#cdc97c;
 }
 .navbar-brand.page-scroll:hover:after{
  width: 10px;
@@ -773,7 +773,7 @@ font-size: 1em;}
     font-size: 18px;
     
 }
-.navbar-brand.page-scroll:hover, .navbar-custom .nav li a:hover{
+.navbar-custom .nav li a:hover{
   color: #fff;
 }
 @media (min-width: 1200px) {
