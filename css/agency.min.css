@@ -300,7 +300,17 @@ section {
   margin: 5px 0;
   font-size: 16px;
   text-transform: none; }
-
+.service-heading::after {
+    content: " ";
+    display: block;
+    background: #cdc97c;
+    width: 60%;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin: 10px auto;
+    display: block;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0; }
