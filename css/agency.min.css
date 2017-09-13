@@ -165,7 +165,9 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 4px solid #c4c4c4;
     background: transparent;
     border-radius: 0; }
-
+.navbar-custom .navbar-brand:hover{
+ color:#cdc97c;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
