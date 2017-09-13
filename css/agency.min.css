@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     color: white; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #dddddd;
@@ -721,7 +721,7 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
 }
 header a.page-scroll{
   width: auto;
-  border-bottom: 2px solid transparent;
+  border-bottom: 8px solid transparent;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   padding: 0;
@@ -752,6 +752,7 @@ header a.page-scroll{
  -webkit-transition: all 0.1s;
 -moz-transition: all 0.1s;
 transition: all 0.1s;
+ letter-spacing: 4px;
 }
 .navbar-brand.page-scroll:after{
  color:#cdc97c;
@@ -853,7 +854,8 @@ font-size: 1em;}
 }
 
 .navbar-custom .navbar-nav > .active > a{
- border-bottom: 3px solid #7ccdba;
+ border-bottom: 8px solid #7ccdba;
+ margin-bottom: -9px;
 }
 .hello-me .em:after{
   content: "@protonmail.ch";
