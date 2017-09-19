@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: white; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
       color: #dddddd;
@@ -757,7 +757,7 @@ header a.page-scroll{
  -webkit-transition: all 0.1s;
 -moz-transition: all 0.1s;
 transition: all 0.1s;
- letter-spacing: 4px;
+ letter-spacing: 2px;
 }
 .navbar-brand.page-scroll:after{
  color:#cdc97c;
@@ -820,8 +820,7 @@ font-size: 1em;}
    position: absolute;
    top: 120px;
    left: 20px;
-  }
-  
+   line-height: 1.2;  
  }
  .bg {
   animation:slide 3s ease-in-out infinite alternate;
