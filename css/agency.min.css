@@ -7236,6 +7236,12 @@ header a.page-scroll {
     text-align: center;
     font-size: 18px;
 }
+@media (min-width: 790px){
+    header a.page-scroll {
+        margin-top: 50px;
+        margin-right: 50px; 
+    }
+}
 
 header a.page-scroll:hover {
     background: rgba(250, 250, 250, 0.01);
