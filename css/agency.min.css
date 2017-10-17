@@ -8071,7 +8071,7 @@ header a.page-scroll {
 }
 @media (min-width: 1440px){
     .info-start{
-        width: 940px;
+        width: 800px;
     }
 }
 @media (min-width: 2000px){
