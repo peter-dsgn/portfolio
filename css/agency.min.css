@@ -7325,6 +7325,13 @@ section h2.section-heading {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 15px;
+    font-family: 'Nobile', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: none;
+    background: -webkit-linear-gradient(135deg, #4f364a, #403a52, #1e355c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section h3.section-subheading {
@@ -8027,9 +8034,11 @@ header a.page-scroll {
     }
     .intro-text .info-start h3 {
         text-transform: unset;
-        font-size: 42px;
-        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 48px;
+        font-family: "Nobile", "Montserrat", Helvetica, Arial, sans-serif;
         line-height: 1.2;
+        font-size: 5vw;
+        font-weight: 700;
     }
 }
 
