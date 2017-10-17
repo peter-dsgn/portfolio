@@ -7930,6 +7930,11 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
     font-weight: normal;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+@media (min-width: 1200px){
+    header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, header a.page-scroll, .intro-text h3 {
+        font-size: 1.2em;
+    }
+}
 
 .intro-text h3 {
     line-height: 1.4;
