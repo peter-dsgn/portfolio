@@ -7340,7 +7340,7 @@ section h2.section-heading {
 }
 @media (min-width: 1440px) {
     section h2.section-heading{
-        font-size: 4.4vw;
+        font-size: 3.5vw;
     }
 }
 #services h2.section-heading, #about h2.section-heading {
@@ -8079,7 +8079,7 @@ header a.page-scroll {
         width: 800px;
     }
     .intro-text .info-start h3{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 }
 @media (min-width: 2000px){
