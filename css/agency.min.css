@@ -8004,26 +8004,25 @@ header a.page-scroll {
     }
     .info-start {
         padding: 60px 90px;
-        padding: 140px 100px;
-        border: 10px solid #7ccdba;
+        *border: 10px solid #7ccdba;
         *box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
         transition-property: box-shadow;
         transition-duration: 0.2s;
         transition-delay: 2s;
-        width: 700px;
-        height: 700px;
-        border-radius: 50%; 
+        width: 600px;
+        height: 600px;
     }
     .info-start h3{
         line-height:1.2;
     }
     .info-start:hover {
-        box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
+        *box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
     }
     .intro-text .info-start h3 {
         text-transform: unset;
         font-size: 38px;
         font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height:1.2;
     }
     @media (min-width:1440px) {
         .container {
