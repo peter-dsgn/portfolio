@@ -8057,7 +8057,7 @@ header a.page-scroll {
         transition-property: box-shadow;
         transition-duration: 0.2s;
         transition-delay: 2s;
-        width: 740px;
+        width: 900px;
     }
     .info-start h3 {
         line-height: 1.2;
@@ -8076,7 +8076,7 @@ header a.page-scroll {
 }
 @media (min-width: 1440px){
     .info-start{
-        width: 800px;
+        width: 900px;
     }
     .intro-text .info-start h3{
         font-size: 4vw;
