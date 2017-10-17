@@ -8069,7 +8069,16 @@ header a.page-scroll {
         font-weight: 700;
     }
 }
-
+@media (min-width: 1440px){
+    .info-start{
+        width: 940px;
+    }
+}
+@media (min-width: 2000px){
+    .info-start{
+        width: 1240px;
+    }
+}
 @media (min-width:1440px) {
     .container {
         width: 96vw;
