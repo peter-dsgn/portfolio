@@ -15,7 +15,9 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -7916,7 +7918,7 @@ header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, he
     
 header a.page-scroll {
     width: auto;
-    border-bottom: 8px solid transparent;
+    border-bottom: 6px solid transparent;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     padding: 0;
@@ -8012,6 +8014,9 @@ header a.page-scroll {
         height: 700px;
         border-radius: 50%; 
     }
+    .info-start h3{
+        line-height:1.2;
+    }
     .info-start:hover {
         box-shadow: 3px 3px #1f234a, -1em 0 1em #3c1d30;
     }
@@ -8019,39 +8024,6 @@ header a.page-scroll {
         text-transform: unset;
         font-size: 38px;
         font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        .navbar.affix-top .navbar-brand {
-            transform: rotate(45deg);
-            position: absolute;
-            top: 120px;
-            left: 20px;
-            line-height: 1.2;
-        }
-        .bg {
-            animation: slide 3s ease-in-out infinite alternate;
-            background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-            bottom: 0;
-            left: -50%;
-            opacity: .5;
-            position: fixed;
-            right: -50%;
-            top: 0;
-            z-index: -1;
-        }
-        .bg2 {
-            animation-direction: alternate-reverse;
-            animation-duration: 4s;
-        }
-        .bg3 {
-            animation-duration: 5s;
-        }
-        @keyframes slide {
-            0% {
-                transform: translateX(-25%);
-            }
-            100% {
-                transform: translateX(25%);
-            }
-        }
     }
     @media (min-width:1440px) {
         .container {
