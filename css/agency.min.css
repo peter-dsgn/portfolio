@@ -7338,6 +7338,11 @@ section h2.section-heading {
     line-height: 1.4;
     margin-bottom: 0;
 }
+@media (min-width: 1440px) {
+    section h2.section-heading{
+        font-size: 4.4vw;
+    }
+}
 #services h2.section-heading, #about h2.section-heading {
     background: -webkit-linear-gradient(135deg, #4f364a, #403a52, #1e355c);
     -webkit-background-clip: text;
@@ -8072,6 +8077,9 @@ header a.page-scroll {
 @media (min-width: 1440px){
     .info-start{
         width: 800px;
+    }
+    .intro-text .info-start h3{
+        font-size: 4.5vw;
     }
 }
 @media (min-width: 2000px){
