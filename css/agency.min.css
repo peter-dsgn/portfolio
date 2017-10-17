@@ -8079,12 +8079,7 @@ header a.page-scroll {
         width: 1240px;
     }
 }
-@media (min-width:1440px) {
-    .container {
-        width: 96vw;
-        max-width: 1440px;
-    }
-}
+
 
 .navbar-custom .navbar-nav>.active>a {
     border-bottom: 8px solid #7ccdba;
