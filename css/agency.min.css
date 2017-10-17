@@ -7926,7 +7926,7 @@ header ::selection {
 }
 
 header .intro-text p, .navbar-custom .navbar-brand, .navbar-custom .nav li a, header a.page-scroll, .intro-text h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: normal;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
