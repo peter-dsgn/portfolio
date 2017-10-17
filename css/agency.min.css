@@ -8075,8 +8075,8 @@ header a.page-scroll {
     }
 }
 @media (min-width: 2000px){
-    .info-start{
-        width: 1240px;
+    .info-start h3{
+        font-size: 4vw;
     }
 }
 
